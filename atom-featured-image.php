@@ -17,6 +17,7 @@ define('ATOM_IMAGE_DEFAULT_SIZE', 'medium');
 
 require_once dirname(__FILE__) . '/inc/options.php';
 require_once dirname(__FILE__) . '/inc/feed-image.php';
+require_once dirname(__FILE__) . '/inc/admin-settings.php';
 require_once dirname(__FILE__) . '/inc/loader.php';
 
 \AtomFeaturedImage\Loader::init();

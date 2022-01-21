@@ -9,5 +9,6 @@ class Loader
         $options = Options::get_instance();
 
         FeedImage::register();
+        AdminSettings::register();
     }
 }
