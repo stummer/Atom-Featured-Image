@@ -18,6 +18,6 @@ class FeedImage
             echo '';
 
         $options = Options::get_instance();
-        echo '\t\t<image>' . get_the_post_thumbnail_url($post->ID, $options->get('image_size'), ATOM_IMAGE_DEFAULT_SIZE) . '</image>\n';
+        echo '<image>' . get_the_post_thumbnail_url($post->ID, $options->get('image_size'), ATOM_IMAGE_DEFAULT_SIZE) . '</image>';
     }
 }
