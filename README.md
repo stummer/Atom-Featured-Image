@@ -1,3 +1,5 @@
 # Atom Featured Image
 
-The "Atom Featured Image" plugin adds a &lt;image&gt; tag to all entries of the atom feed with the featured image of the blog post.
+This Plugin adds an &lt;icon&gt; tag with the featured image to your atom feed.
+
+You can change the image size from the plugin's setting page under "Settings" &gt; "Atom Featured Image". By default the plugin uses medium size.
