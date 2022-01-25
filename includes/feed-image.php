@@ -7,7 +7,14 @@ class FeedImage
     public static function register()
     {
         $image = new self();
+        add_action('init', array($image, 'init'));
         add_action('atom_entry', array($image, 'create_atom_icon_tag'));
+    }
+
+
+    public function init()
+    {
+        load_plugin_textdomain('atom_featured_image', false, ATOM_IMAGE_BASE_PATH . '/languages' );
     }
 
 

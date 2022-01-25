@@ -15,12 +15,13 @@ Domain Path:       /languages
 
 defined('ABSPATH') || exit();
 
+define('ATOM_IMAGE_BASE_PATH', dirname(__FILE__));
 define('ATOM_IMAGE_DEFAULT_SIZE', 'medium');
 
 
-require_once dirname(__FILE__) . '/includes/options.php';
-require_once dirname(__FILE__) . '/includes/feed-image.php';
-require_once dirname(__FILE__) . '/includes/admin-settings.php';
-require_once dirname(__FILE__) . '/includes/loader.php';
+require_once ATOM_IMAGE_BASE_PATH . '/includes/options.php';
+require_once ATOM_IMAGE_BASE_PATH . '/includes/feed-image.php';
+require_once ATOM_IMAGE_BASE_PATH . '/includes/admin-settings.php';
+require_once ATOM_IMAGE_BASE_PATH . '/includes/loader.php';
 
 \AtomFeaturedImage\Loader::init();
