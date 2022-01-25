@@ -46,7 +46,7 @@ class AdminSettings
 
     public function render_general_section()
     {
-        echo '<p>' . _e('This Plugin adds an <icon> tag with the featured image to your atom feed.', 'atom_featured_image') . '</p>';
+        echo '<p>' . esc_html__('This Plugin adds an <icon> tag with the featured image to your atom feed.', 'atom_featured_image') . '</p>';
     }
 
 
