@@ -33,7 +33,7 @@ class AdminSettings
     {
         ?>
         <div class="wrap" id="atom_featured_image-admin">
-            <h2><?php _e('Admin Featured Image', 'atom_featured_image'); ?></h2>
+            <h2><?php _e('Atom Featured Image', 'atom_featured_image'); ?></h2>
             <form action="options.php" method="POST">
                 <?php settings_fields('atom_featured_image'); ?>
                 <?php do_settings_sections('atom_featured_image'); ?>
