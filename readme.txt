@@ -1,4 +1,10 @@
 # Atom Featured Image #
+* Tags:              feed, atom, featured image
+* Requires at least: 5.3
+* Tested up to:      5.8
+* Stable tag:        1.0.0
+* License:           GPL v3 or later
+* License URI:       https://www.gnu.org/licenses/gpl-3.0
 
 ## Description ##
 WordPress Plugin to add an &lt;icon&gt; tag with the post's featured image to the atom feed.
