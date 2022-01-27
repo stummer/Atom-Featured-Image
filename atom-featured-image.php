@@ -9,7 +9,7 @@ Author:            Henning Stummer
 Author URI:        https://github.com/stummer
 License:           GPL v3 or later
 License URI:       https://www.gnu.org/licenses/gpl-3.0
-Text Domain:       my-basics-plugin
+Text Domain:       atom_featured_image
 Domain Path:       /languages
 */
 
