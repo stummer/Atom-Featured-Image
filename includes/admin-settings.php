@@ -1,9 +1,22 @@
 <?php
-
+/**
+* Atom Featured Image Admin GUI
+*
+* @package Atom Featured Image
+* @since 1.0.0
+**/
 namespace AtomFeaturedImage;
 
+/*
+* AdminSettings
+* @since 1.0.0
+*/
 class AdminSettings
 {
+    /*
+    * Register the admin menu and pages
+    * @since 1.0.0
+    */
     public static function register()
     {
         $page = new self();
@@ -12,12 +25,20 @@ class AdminSettings
     }
 
 
+    /*
+    * Adding admin menu to the WordPress Settings Menu
+    * @since 1.0.0
+    */
     public function add_admin_page()
     {
         add_options_page(__('Atom Featured Image', 'atom_featured_image'), __('Atom Featured Image', 'atom_featured_image'), 'install_plugins', 'atom_featured_image', array($this, 'render'));
     }
 
 
+    /*
+    * Setup the admin page content
+    * @since 1.0.0
+    */
     public function configure()
     {
         // Register settings
@@ -29,6 +50,10 @@ class AdminSettings
     }
 
 
+    /*
+    * Render the admin page
+    * @since 1.0.0
+    */
     public function render()
     {
         ?>
@@ -44,12 +69,20 @@ class AdminSettings
     }
 
 
+    /*
+    * Render admin general section
+    * @since 1.0.0
+    */
     public function render_general_section()
     {
         echo '<p>' . esc_html__('This Plugin adds an <icon> tag with the featured image to your atom feed.', 'atom_featured_image') . '</p>';
     }
 
 
+    /*
+    * Render image size option
+    * @since 1.0.0
+    */
     public function render_size_field()
     {
         $sizes = wp_get_registered_image_subsizes();
