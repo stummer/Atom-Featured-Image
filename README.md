@@ -1,5 +1,16 @@
 # Atom Featured Image
 
-This Plugin adds an &lt;icon&gt; tag with the featured image to your atom feed.
+## Description ##
+WordPress Plugin to add an &lt;icon&gt; tag with the post's featured image to the atom feed.
 
-You can change the image size from the plugin's setting page under "Settings" &gt; "Atom Featured Image". By default the plugin uses medium size.
+### Features/Settings Overview ###
+* Selectable image size.
+
+### Credits ###
+* Author: [Henning Stummer](https://www.stummerweb.de)
+
+## Installation ##
+* If you don’t know how to install a plugin for WordPress, [here’s how](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins).
+
+### Requirements ###
+* WordPress 5.3 or greater
