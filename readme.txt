@@ -1,4 +1,5 @@
 # Atom Featured Image #
+* Contributors:      stummer
 * Tags:              feed, atom, featured image
 * Requires at least: 5.3
 * Tested up to:      5.8
@@ -20,3 +21,8 @@ WordPress Plugin to add an &lt;icon&gt; tag with the post's featured image to th
 
 ### Requirements ###
 * WordPress 5.3 or greater
+
+## Changelog ##
+
+### 1.0.0 ###
+* Initial Release
