@@ -2,7 +2,8 @@
 * Contributors:      stummer
 * Tags:              feed, atom, featured image
 * Requires at least: 5.3
-* Tested up to:      5.8
+* Requires PHP:      5.6
+* Tested up to:      5.9
 * Stable tag:        1.0.0
 * License:           GPL v3 or later
 * License URI:       https://www.gnu.org/licenses/gpl-3.0
@@ -20,7 +21,8 @@ WordPress Plugin to add an &lt;icon&gt; tag with the post's featured image to th
 * If you don’t know how to install a plugin for WordPress, [here’s how](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins).
 
 ### Requirements ###
-* WordPress 5.3 or greater
+* WordPress 5.3 or later
+* PHP 5.6.20 or later
 
 ## Changelog ##
 
