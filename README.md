@@ -13,4 +13,5 @@ WordPress Plugin to add an &lt;icon&gt; tag with the post's featured image to th
 * If you don’t know how to install a plugin for WordPress, [here’s how](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins).
 
 ### Requirements ###
-* WordPress 5.3 or greater
+* WordPress 5.3 or higher
+* PHP 5.6 or higher
