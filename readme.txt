@@ -1,6 +1,7 @@
 # Atom Featured Image #
 * Contributors:      stummer
 * Tags:              feed, atom, featured image
+* Donate link:       https://www.paypal.com/donate/?hosted_button_id=BVYHMUJQDLFC4
 * Requires at least: 5.3
 * Requires PHP:      5.6
 * Tested up to:      5.9
