@@ -19,9 +19,24 @@ class AdminSettings
     */
     public static function register()
     {
-        $page = new self();
-        add_action('admin_init', array($page, 'configure'));
-        add_action('admin_menu', array($page, 'add_admin_page'));
+        $admin = new self();
+        $plugin = ATOM_IMAGE_BASE_NAME;
+        add_filter("plugin_action_links_$plugin", array($admin, 'settings_link'));
+
+        add_action('admin_init', array($admin, 'configure'));
+        add_action('admin_menu', array($admin, 'add_admin_page'));
+    }
+
+
+    /*
+    * Adding link to admin settings page to the list of installed plugins
+    * @since 1.0.1
+    */
+    public function settings_link($links)
+    {
+        $settings_link = '<a href="options-general.php?page=atom_featured_image">' . __('Settings') . '</a>';
+        array_push($links, $settings_link);
+        return $links;
     }
 
 

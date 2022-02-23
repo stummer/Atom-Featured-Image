@@ -3,7 +3,7 @@
 * Plugin Name:       Atom Featured Image
 * Plugin URI:        https://github.com/stummer/Atom-Featured-Image
 * Description:       Adds the post's featured image to the atom feed
-* Version:           1.0.0
+* Version:           1.0.1
 * Requires at least: 5.3
 * Author:            Henning Stummer
 * Author URI:        https://www.stummerweb.de
@@ -30,6 +30,9 @@
 
 // If this file was called directly, abort.
 defined('ABSPATH') || exit();
+
+// Defines the base name of the plugin.
+define('ATOM_IMAGE_BASE_NAME', plugin_basename(__FILE__));
 
 // Defines the base path of the plugin.
 define('ATOM_IMAGE_BASE_PATH', dirname(__FILE__));
